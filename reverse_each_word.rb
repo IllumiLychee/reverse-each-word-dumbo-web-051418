@@ -4,7 +4,7 @@ def sentence(reversed_words)
 def reverse_each_word(sentence)
   reversed_words = sentence.split("")
   reversed_words.collect do |word|
-    word.reverse
+    word.reverse!
   end
 end
 

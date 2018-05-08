@@ -1,5 +1,5 @@
 def sentence(reversed_words)
-  return reversed_words.join("")
+  return reversed_words.join('')
 
 def reverse_each_word(sentence)
   reversed_words = sentence.split("")

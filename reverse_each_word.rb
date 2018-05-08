@@ -3,7 +3,7 @@ def sentence(reversed_words)
 
 def reverse_each_word(sentence)
   reversed_words = sentence.split("")
-  sentence.collect do |word|
+  reversed_words.collect do |word|
     word.reverse
   end
 end
